@@ -272,7 +272,7 @@ vars.put(&quot;response&quot;, converted);*/
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\jmeter-login\smoke_screen_success_test.csv</stringProp>
+              <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\testowanie-jmeter-login\smoke_screen_success_test.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -577,7 +577,7 @@ Output = &quot;${vrand}&quot;;</stringProp>
                   <assertionsResultsToSave>0</assertionsResultsToSave>
                 </value>
               </objProp>
-              <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\jmeter-login\random_variable_success_test.csv</stringProp>
+              <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\testowanie-jmeter-login\random_variable_success_test.csv</stringProp>
             </ResultCollector>
             <hashTree/>
           </hashTree>
@@ -651,6 +651,79 @@ Output = &quot;${vrand}&quot;;</stringProp>
               </value>
             </objProp>
             <stringProp name="filename"></stringProp>
+          </ResultCollector>
+          <hashTree/>
+          <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer - failed test" enabled="true">
+            <boolProp name="ResultCollector.error_logging">true</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\testowanie-jmeter-login\hltv_test_failed.csv</stringProp>
+          </ResultCollector>
+          <hashTree/>
+          <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer - test succeed" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>false</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename">C:\Users\Bartek\Desktop\TESTOWANKO\testowanie-jmeter-login\hltv_test_success.csv</stringProp>
+            <boolProp name="ResultCollector.success_only_logging">true</boolProp>
           </ResultCollector>
           <hashTree/>
         </hashTree>
